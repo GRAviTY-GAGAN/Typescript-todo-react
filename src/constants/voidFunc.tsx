@@ -13,3 +13,8 @@ export interface actionType {
     type: string,
     payload?: object
 }
+
+export interface typeTodo {
+    todo: todoType
+    handleToogle: (id:string|undefined)=>void
+  }

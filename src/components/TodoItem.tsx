@@ -1,9 +1,6 @@
-import { todoType } from "../constants/voidFunc";
+import { todoType, typeTodo } from "../constants/voidFunc";
 
-interface typeTodo {
-  todo: todoType
-  handleToogle: (id:string|undefined)=>void
-}
+
 
 const TodoItem = ({todo, handleToogle}:typeTodo) => {
 
